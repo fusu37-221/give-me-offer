@@ -73,3 +73,9 @@
 - 新增 `RELEASE_NOTES.md`，整理 `0.1.0-draft` 首版发布说明。
 - 新增 `docs/github-publish-checklist.md`，记录 GitHub 仓库创建、远程推送、首个 tag/release 的建议步骤。
 - 检查结果：GitHub CLI (`gh`) 本机未找到；当前未配置远程仓库。
+
+## 2026-06-25 第十一轮：远程 origin 配置与推送尝试
+
+- 已添加远程：`origin https://github.com/fusu37-221/give-me-offer.git`。
+- 执行 `git push -u origin main` 时返回：`remote: Repository not found.`，说明 GitHub 端仓库尚未创建，或当前凭据没有访问权限。
+- 当前本地状态：分支 `main`，工作区干净，远程 origin 已配置。用户在 GitHub 创建空仓库 `give-me-offer` 后，可直接再次执行 `git push -u origin main`。
