@@ -79,3 +79,10 @@
 - 已添加远程：`origin https://github.com/fusu37-221/give-me-offer.git`。
 - 执行 `git push -u origin main` 时返回：`remote: Repository not found.`，说明 GitHub 端仓库尚未创建，或当前凭据没有访问权限。
 - 当前本地状态：分支 `main`，工作区干净，远程 origin 已配置。用户在 GitHub 创建空仓库 `give-me-offer` 后，可直接再次执行 `git push -u origin main`。
+
+## 2026-06-25 第十二轮：GitHub push 认证阻塞
+
+- GitHub 端仓库创建后，重试 `git push -u origin main`。
+- 第一次返回 HTTPS 连接重置：`Recv failure: Connection was reset`。
+- 第二次 push 卡在 `git credential-manager get`，无输出等待超过数分钟；已定位并结束本次 push 相关进程。
+- 当前状态：本地仓库干净，分支 `main`，远程 `origin` 已配置，但尚未建立 upstream。下一步建议在可见终端或 GitHub Desktop 中执行 `git push -u origin main` 完成 GitHub 登录授权。
