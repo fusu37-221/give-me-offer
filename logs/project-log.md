@@ -100,3 +100,7 @@
 - 将 `RELEASE_NOTES.md`、`ROADMAP.md`、`CONTRIBUTING.md`、`CODE_OF_CONDUCT.md`、`GOVERNANCE.md`、`docs/project-brief.md`、`docs/github-publish-checklist.md` 改为中文说明。
 - 更新 `skills/give-me-offer/agents/openai.yaml`，让 Codex UI 中的 Skill 名称、简介和默认提示更适合中文求职者。
 - 已同步安装副本的 `agents/openai.yaml`。
+
+## 2026-06-25 第十五轮：README 开头简介重写
+- 根据用户确认，采用上一版完整简介，并将定位从“面向中文求职者”调整为“面向求职者”。
+- 改动范围控制在 README 首页开头，保持开源项目说明更聚焦适合人群、痛点和价值边界。
