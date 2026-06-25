@@ -1,13 +1,13 @@
-# Code of Conduct
+# 行为准则
 
-This project is for practical, respectful career support.
+`give-me-offer` 是一个用于实际求职支持的开源项目。我们希望这里的讨论和贡献对求职者有帮助，也足够尊重人。
 
-Participants should:
+参与者应当：
 
-- Be respectful of candidates from different schools, regions, majors, and career stages.
-- Avoid discrimination based on age, gender, nationality, school tier, disability, or background.
-- Give candid feedback without humiliation.
-- Protect personal information.
-- Reject requests to fabricate credentials or misrepresent employment history.
+- 尊重不同学校、地区、专业、年龄和职业阶段的求职者
+- 不因学校层次、性别、年龄、国籍、残障、专业背景等因素歧视他人
+- 可以给出直接反馈，但不要羞辱求职者
+- 保护个人隐私和候选人材料
+- 拒绝伪造履历、虚构经历或误导招聘方的内容
 
-Maintainers may remove contributions or discussions that violate these expectations.
+维护者可以移除违反这些原则的内容或讨论。

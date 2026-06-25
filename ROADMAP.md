@@ -1,37 +1,37 @@
-# Roadmap
+# 路线图
 
-## v0.1 Local Skill
+## v0.1 本地可用草稿
 
-- Core Skill workflow
-- Evidence boundary
-- Career vault
-- One-page China-facing layout
-- JD reality check
-- Recruiter scan test
-- Proof pack
-- Interview defense
-- AI skill levels
-- Application channel adaptation
-- Local Codex installation
+- 核心 Skill 流程
+- 真实美化边界
+- 职业资产库
+- 国内一页简历排版
+- JD 真实性检查
+- HR 快速扫描测试
+- 作品集/证明材料补强
+- 面试防爆
+- AI 能力分级
+- 投递通道适配
+- 本地 Codex Skill 安装
 
-## v0.2 Public Examples
+## v0.2 中文案例增强
 
-- More fictional full-resume examples
-- More role playbooks: finance, HR, design, manufacturing, healthcare, public-sector, testing, Java backend, data analyst
-- JSON output option for helper scripts
-- More forward-test reports
+- 增加更多完整虚构中文简历案例
+- 扩展岗位路线：Java 后端、测试、数据分析、产品、运营、财务、人力、设计、制造、医疗、公职等
+- 给 helper 脚本增加 JSON 输出
+- 增加更多前向测试报告
 
-## v0.3 Packaging
+## v0.3 发布体验增强
 
-- Release artifact checklist
-- Skill installation notes
-- Contributor examples
-- Optional CI validation for Skill frontmatter and Python scripts
+- 增加自动校验脚本或 CI
+- 增加更清晰的安装说明
+- 增加贡献者示例
+- 整理可发布的 Skill 压缩包或安装路径说明
 
-## v1.0 Open Source Release
+## v1.0 开源稳定版
 
-- Stable Skill package
-- Stable contribution workflow
-- Complete common role playbooks
-- Public release notes
-- Privacy and safety guidance
+- Skill 包结构稳定
+- 常见岗位路线基本覆盖
+- 贡献流程稳定
+- 发布说明完善
+- 隐私与安全指引完善

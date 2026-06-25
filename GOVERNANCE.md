@@ -1,21 +1,21 @@
-# Governance
+# 治理说明
 
-`give-me-offer` is maintained as a practical open-source Skill.
+`give-me-offer` 作为一个实用型开源 Skill 维护。
 
-## Maintainer Responsibilities
+## 维护者职责
 
-- Keep the Skill useful for real candidates.
-- Review changes for truthful enhancement and interview defensibility.
-- Keep role playbooks current without chasing every short-lived buzzword.
-- Prefer small, well-scoped updates.
+- 保持 Skill 对真实求职者有用
+- 审查内容是否符合“真实美化，不造假”的原则
+- 维护岗位路线和市场热点，但不盲目追逐短期 buzzword
+- 优先接受小而清晰、可验证的改动
 
-## Decision Principles
+## 决策原则
 
-1. Candidate safety over aggressive optimization.
-2. Real evidence over impressive wording.
-3. Durable career skills over pure trend chasing.
-4. Clear workflow over prompt bloat.
+1. 候选人安全和可信度优先于激进包装
+2. 真实证据优先于漂亮话
+3. 长期能力优先于短期热点
+4. 清晰流程优先于堆砌提示词
 
-## Versioning
+## 版本策略
 
-Early versions may use date-based releases. Later versions can adopt semantic versioning when the public API of references, scripts, and templates stabilizes.
+早期使用草稿版本号，例如 `0.1.0-draft`。当 Skill 结构、references、脚本和模板稳定后，再采用更正式的语义化版本。

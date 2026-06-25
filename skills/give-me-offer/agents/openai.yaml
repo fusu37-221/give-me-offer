@@ -1,7 +1,7 @@
 interface:
-  display_name: "Give Me Offer"
-  short_description: "Target resumes and job strategy."
-  default_prompt: "Use $give-me-offer to tailor my resume and job-search strategy for a target role."
+  display_name: "Give Me Offer 简历求职助手"
+  short_description: "中文简历优化、岗位匹配、转岗定位与面试防爆助手。"
+  default_prompt: "Use $give-me-offer 帮我根据目标岗位优化中文简历和求职策略。"
 
 policy:
   allow_implicit_invocation: true

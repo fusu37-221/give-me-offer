@@ -93,3 +93,10 @@
 - 成功执行 `git push -u origin main`。
 - 远程仓库：`https://github.com/fusu37-221/give-me-offer.git`。
 - 本地分支 `main` 已设置为跟踪 `origin/main`。
+
+## 2026-06-25 第十四轮：面向中文求职者的仓库说明中文化
+
+- 将 GitHub 首页 README 改为中文优先，明确目标用户、核心能力、真实美化原则和重要模块。
+- 将 `RELEASE_NOTES.md`、`ROADMAP.md`、`CONTRIBUTING.md`、`CODE_OF_CONDUCT.md`、`GOVERNANCE.md`、`docs/project-brief.md`、`docs/github-publish-checklist.md` 改为中文说明。
+- 更新 `skills/give-me-offer/agents/openai.yaml`，让 Codex UI 中的 Skill 名称、简介和默认提示更适合中文求职者。
+- 已同步安装副本的 `agents/openai.yaml`。

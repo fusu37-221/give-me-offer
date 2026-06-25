@@ -1,51 +1,39 @@
-# Release Notes
+# 发布说明
 
 ## 0.1.0-draft
 
-Initial local draft of `give-me-offer`, a Codex Skill for targeted resumes and job-search strategy.
+`give-me-offer` 的第一个草稿版本。这个版本已经具备面向中文求职者的核心能力：简历生成、岗位适配、转岗表达、真实美化边界、国内一页简历、JD 风险识别、作品集补强、面试防爆和 AI 能力分级。
 
-### Added
+## 新增内容
 
-- Core `give-me-offer` Skill package under `skills/give-me-offer`.
-- Evidence-boundary workflow for truthful resume enhancement.
-- Career-vault structure for reusable candidate assets.
-- China-facing one-page A4 resume layout standard.
-- ATS/parser-friendly Chinese and English templates.
-- Domestic one-page Chinese resume template.
-- Role and industry playbooks for common transitions:
-  - full-stack to frontend
-  - full-stack to AI Agent / AI application
-  - non-CS to product assistant
-  - operations/new media/e-commerce
-  - research to industry/data/product
-  - cross-border e-commerce
-- JD reality-check workflow for inflated, vague, AI-washed, or sales-disguised job posts.
-- Recruiter 3-second / 10-second / 30-second scan test.
-- Proof-pack recommendations for portfolio and evidence building.
-- Interview-defense workflow for strong resume bullets.
-- AI skill levels from L1 tool user to L5 model/platform specialist.
-- Application channel adaptation for PDF, BOSS/direct chat, email, online fields, LinkedIn, SOE/public-sector forms, and academic CVs.
-- Quality gates for final resume and application package review.
-- Helper scripts:
-  - `jd_keyword_extract.py`
-  - `resume_checklist.py`
-- GitHub community files:
-  - `README.md`
-  - `CONTRIBUTING.md`
-  - `CODE_OF_CONDUCT.md`
-  - `GOVERNANCE.md`
-  - issue and PR templates
+- Codex Skill 本体：`skills/give-me-offer`
+- 真实美化边界：避免虚构学历、公司、实习、证书、奖项、论文、上线成果等
+- 职业资产库：把零散经历整理成可复用素材
+- 国内一页 A4 简历排版标准
+- 中文/英文 ATS 友好模板
+- 国内一页中文简历模板
+- 常见转岗路线：全栈转前端、全栈转 AI Agent、非科班转产品/运营、科研转企业、跨境电商等
+- JD 真实性检查：识别 AI 包装岗、销售伪装岗、膨胀初级岗、模糊实习岗
+- HR 3 秒/10 秒/30 秒扫描测试
+- 作品集/证明材料补强方案
+- 面试追问防爆流程
+- AI 能力 L1-L5 分级表达
+- 多投递通道适配：PDF、BOSS 直聊、邮件、网申字段、LinkedIn、国企/公职、学术 CV
+- 最终质量门：真实性、岗位匹配、扫描性、解析友好、面试防御、证明材料计划
+- 轻量脚本：`jd_keyword_extract.py`、`resume_checklist.py`
+- GitHub 开源协作文件：README、贡献指南、行为准则、治理说明、Issue/PR 模板
 
-### Validated
+## 已验证
 
-- `quick_validate.py` passes for the Skill package.
-- Helper scripts compile with Python.
-- Forward-test report covers five fictional scenarios.
-- Installed copy validated at `C:\Users\15938\.codex\skills\give-me-offer`.
+- Skill 通过 `quick_validate.py`
+- Python helper 脚本可编译
+- 已有前向测试报告，覆盖 5 个虚构场景
+- 已复制安装到本机 Codex Skill 目录：`C:\Users\15938\.codex\skills\give-me-offer`
+- 已成功推送到 GitHub 仓库
 
-### Known Gaps
+## 已知不足
 
-- Needs more full industry playbooks before public v1.0.
-- Needs new-session verification that `$give-me-offer` appears in the active Skill list.
-- Needs remote GitHub repository creation and push.
-- GitHub CLI was not found on the local machine during release preparation.
+- 行业 playbook 还需要扩展：财务、人力、设计、制造、医疗、法务/合规、公职等
+- 完整中文案例库还需要继续增加
+- 需要新开 Codex 会话验证 `$give-me-offer` 是否能自动触发
+- 后续可增加 JSON 输出和 CI 校验

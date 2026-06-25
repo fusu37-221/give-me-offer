@@ -1,27 +1,32 @@
-# Project Brief
+# 项目简报
 
-## Project
+## 项目名称
 
-`give-me-offer` Codex Skill.
+`give-me-offer` Codex Skill。
 
-## Created
+## 创建时间
 
 2026-06-25
 
-## Goal
+## 目标
 
-Build a GitHub-ready open-source Skill that helps students, graduate students, cross-major applicants, and experienced candidates produce targeted, credible resumes and job-search strategy.
+构建一个面向 GitHub 开源的 Codex Skill，帮助学生、研究生、跨专业求职者、转岗者和有一定工作经验的候选人，产出更匹配岗位、更真实可信、更适合国内求职环境的简历和求职材料。
 
-## Core Modules
+## 核心模块
 
-- Experience inventory and career vault structure.
-- JD analysis and role-match scoring.
-- Direct-fit, adjacent-transfer, and career-switch positioning.
-- Evidence boundary and truthful enhancement rules.
-- Role playbooks for common transitions.
-- Trend refresh workflow for hot roles.
-- Optional profile-photo guidance.
+- 经历盘点与职业资产库
+- JD 分析与岗位匹配评分
+- 专业对口、邻近转岗、跨行业入门定位
+- 真实美化边界
+- 常见转岗路线手册
+- 热点岗位更新流程
+- 国内一页 A4 简历排版
+- HR 快速扫描测试
+- 作品集/证明材料补强
+- 面试防爆
+- AI 能力分级
+- 证件照/职业照建议
 
-## Initial User Direction
+## 初始需求
 
-The Skill should help users with no resume create one from real experience, help users with a resume improve it for target roles, support cross-major and career-switch scenarios, and evolve with market hotspots while respecting candidate preference and truthfulness.
+用户希望这个 Skill 能帮助没有简历的人从真实经历出发生成简历；帮助已有简历的人针对目标岗位优化；支持跨专业、转岗、热点岗位和 AI Agent 等新方向；同时坚持以求职者真实情况为基础，进行合理美化而不是造假。

@@ -1,28 +1,34 @@
-# Contributing
+# 贡献指南
 
-Thank you for helping improve `give-me-offer`.
+感谢你愿意改进 `give-me-offer`。
 
-## Contribution Areas
+这个项目面向中文求职者，优先欢迎中文内容、中文案例和国内求职场景经验。
 
-- Role playbooks for new industries and regions.
-- Resume examples with fictional or anonymized data.
-- Evidence-boundary rules that reduce hallucination or exaggeration.
-- ATS and recruiter-review checklists.
-- Profile-photo guidance for different markets.
-- Scripts that improve deterministic checks.
+## 可以贡献什么
 
-## Standards
+- 新行业/新岗位的转岗路线
+- 虚构或匿名化的简历案例
+- 更好的真实美化边界规则
+- ATS、HR 快速扫描、面试防爆检查清单
+- 国内不同投递渠道的材料模板
+- 证件照/职业照场景建议
+- 更稳定的检查脚本
 
-- Do not add real personal data.
-- Do not encourage fake credentials or unverifiable claims.
-- Prefer examples that are interview-defensible.
-- Keep `SKILL.md` concise; put detailed guidance in `references/`.
-- Keep assets reusable and clearly named.
+## 内容标准
 
-## Pull Request Checklist
+- 不添加真实个人隐私信息
+- 不鼓励虚构学历、公司、实习、证书、奖项、论文、项目成果
+- 案例应使用虚构或充分匿名化数据
+- 简历表述要能经得起面试追问
+- `SKILL.md` 保持精简，详细规则放进 `references/`
+- 文件命名清晰，方便后续维护
 
-- The change supports a realistic job-search workflow.
-- The change preserves truthful enhancement.
-- The Skill can still be understood through progressive disclosure.
-- Scripts, if added, have been run at least once.
-- `quick_validate.py` passes for `skills/give-me-offer`.
+## Pull Request 检查
+
+提交前请确认：
+
+- 改动服务于真实求职场景
+- 没有鼓励造假或过度包装
+- 不包含真实候选人的个人材料
+- 新增脚本已至少运行一次
+- `quick_validate.py` 能通过 `skills/give-me-offer`
