@@ -1,0 +1,7 @@
+interface:
+  display_name: "Give Me Offer"
+  short_description: "Target resumes and job strategy."
+  default_prompt: "Use $give-me-offer to tailor my resume and job-search strategy for a target role."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,22 @@
+# Local and temporary files
+tmp/
+outputs/*
+screenshots/*
+*.tmp
+*.log
+
+# Candidate private materials
+source/*
+!source/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

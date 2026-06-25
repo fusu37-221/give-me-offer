@@ -1,0 +1,24 @@
+name: Role playbook request
+description: Suggest a new target role or transition route.
+title: "[Role]: "
+labels: ["role-playbook"]
+body:
+  - type: input
+    id: role
+    attributes:
+      label: Target role
+      placeholder: "AI Agent Engineer, Frontend Developer, Product Assistant"
+    validations:
+      required: true
+  - type: textarea
+    id: candidate
+    attributes:
+      label: Candidate background
+      description: Use fictional or anonymized information only.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Useful evidence or JD examples
+      description: Links or anonymized JD snippets are welcome.
