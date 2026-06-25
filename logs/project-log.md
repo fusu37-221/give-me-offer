@@ -66,3 +66,10 @@
 - 已执行 `git add .`，项目文件已加入本地 Git 索引。
 - 执行 `git commit -m "Initial give-me-offer skill draft"` 时失败，原因是本仓库未配置 `user.name` 和 `user.email`。
 - 为避免擅自使用虚假开源身份，暂不设置 Git identity。下一步需要用户确认本仓库提交身份后再执行首个 commit。
+
+## 2026-06-25 第十轮：GitHub 发布准备
+
+- 将本地默认分支从 `master` 重命名为 `main`。
+- 新增 `RELEASE_NOTES.md`，整理 `0.1.0-draft` 首版发布说明。
+- 新增 `docs/github-publish-checklist.md`，记录 GitHub 仓库创建、远程推送、首个 tag/release 的建议步骤。
+- 检查结果：GitHub CLI (`gh`) 本机未找到；当前未配置远程仓库。
